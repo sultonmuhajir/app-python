@@ -11,5 +11,5 @@
 -  Pilih jenis aplikasi yang ingin digunakan.
 -  Salin code program dan simpan dalam format _.py_.
 -  Jalankan terminal di folder tempat file _.py_ disimpan.
--  Masukkan perintah `python {nama_aplikasi}.py` dan klik enter.
+-  Lalu masukkan perintah `python {nama_aplikasi}.py` dan klik enter.
 -  Aplikasi berhasil dibuka.
