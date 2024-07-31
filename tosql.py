@@ -15,10 +15,11 @@ def to_sql(df, table):
    df = df.replace('"', "'", regex=True)
    arr = []
    for index, row in df.iterrows():
+      col = ['_'.join(i.lower().split(' ')) for i in df.columns]
       values = ', '.join([f'"{str(value)}"' for value in row.values])
-      query = f"INSERT INTO {table} ({', '.join(df.columns)}) VALUES ({values});"
+      query = f"INSERT INTO {table} ({', '.join(col)}) VALUES ({values});"
       arr.append(query)
-   with open(f"{table}.sql", "w") as file:
+   with open(f"{table}.sql", "w", errors="replace") as file:
       for value in arr: file.write(value + "\n")
    print(f"\nBerhasil!\nFile sql bisa diakses di ./{table}.sql")
 
