@@ -1,7 +1,7 @@
 ## Aplikasi Python Sederhana
 
 -  **case.py :** Mengubah jenis case.
--  **count.py :** Menghitung jumlah kata.
+-  **count.py :** Menghitung jumlah pada teks.
 -  **excel.py :** Konversi file spreadsheet.
 -  **rename.py :** Mengubah nama file otomatis.
 -  **tosql.py :** Konversi spreadsheet ke sql.
