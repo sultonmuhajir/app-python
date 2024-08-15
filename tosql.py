@@ -11,6 +11,7 @@ def encod(data):
    with open(data, 'rb') as file:
       return detect(file.read())['encoding']
    
+   
 def to_sql(df, table):
    df = df.replace('"', "'", regex=True)
    arr = []
