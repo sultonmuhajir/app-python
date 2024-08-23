@@ -1,12 +1,10 @@
-## Aplikasi Python Sederhana
+# Aplikasi Python Sederhana
 
--  **case.py :** Mengubah jenis case.
--  **count.py :** Menghitung jumlah pada teks.
 -  **excel.py :** Konversi file spreadsheet.
 -  **rename.py :** Mengubah nama file otomatis.
 -  **tosql.py :** Konversi spreadsheet ke sql.
 
-#### Cara Menggunakan
+### Cara Menggunakan
 
 -  Pastikan device sudah terinstall [Python](https://www.python.org/).
 -  Pilih jenis aplikasi yang ingin digunakan.
