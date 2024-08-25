@@ -1,4 +1,4 @@
-# Aplikasi Python Sederhana
+# Daftar Aplikasi
 
 -  **excel.py :** Konversi file spreadsheet.
 -  **rename.py :** Mengubah nama file otomatis.
